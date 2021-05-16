@@ -1,10 +1,10 @@
 # Aplicativo Local Library em Django com MySQL.
 
 
-### Projeto criado a partir do tutorial [The Local Library website](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website).
+## Projeto criado a partir do tutorial [The Local Library website](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website).
 
-* Decidi implementar esse projeto com o banco de dados MySQL.
-  * Deve-se criar um banco de dados e um usuário com as devidas permissões:
+### Decidi implementar esse projeto com o banco de dados **MySQL**.
+* Deve-se criar um banco de dados e um usuário com as devidas permissões:
 
  `CREATE DATABASE nome_do_banco_de_dados;`
 
