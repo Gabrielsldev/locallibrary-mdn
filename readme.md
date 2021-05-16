@@ -7,4 +7,4 @@
 A aplicação cria um site para uso de uma biblioteca.
 * É possível cadastrar usuários com diferentes permissões de acesso, inclusão de livros com diversas características, alteração de status de empréstimos, dentre outras várias funcionalidades.
 
-É possível consultar o repositório desde tutorial [aqui] (https://github.com/mdn/django-locallibrary-tutorial)
+É possível consultar o repositório desde tutorial [aqui] (https://github.com/mdn/django-locallibrary-tutorial).
