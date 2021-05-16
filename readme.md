@@ -7,16 +7,24 @@
   * Deve-se criar um banco de dados e um usuário com as devidas permissões:
 
  `CREATE DATABASE nome_do_banco_de_dados;`
+
  `CREATE USER 'djangouser'@'%' IDENTIFIED WITH mysql_native_password BY 'password';`
+ 
  `GRANT ALL ON blog_data.* TO 'djangouser'@'%';`
+ 
  `FLUSH PRIVILEGES;`
   * É necessário editar o arquivo de configuração:
  
  `sudo nano /etc/mysql/my.cnf`
+ 
  `[client]`
+
 `database = nome_do_banco_de_dados`
+
 `user = djangouser`
+
 `password = password`
+
 `default-character-set = utf8`
 
 A aplicação cria um site para uso de uma biblioteca.
