@@ -34,11 +34,17 @@ A aplicação cria um site para uso de uma biblioteca.
 Após criar um virtual enviroment, basta rodar os seguintes comandos:
 
 `pip3 install -r requirements.txt`
+
 `python3 manage.py makemigrations`
+
 `python3 manage.py migrate`
+
 `python3 manage.py collectstatic`
-`python3 manage.py test # Caso queria rodar os teste.`
-`python3 manage.py createsuperuser # Create a superuser`
+
+`python3 manage.py test # Caso queria rodar os testes.`
+
+`python3 manage.py createsuperuser`
+
 `python3 manage.py runserver`
 
 
