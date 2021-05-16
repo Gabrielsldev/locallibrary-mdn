@@ -31,4 +31,15 @@ A aplicação cria um site para uso de uma biblioteca.
 * É possível cadastrar usuários com diferentes permissões de acesso, inclusão de livros com diversas características, alteração de status de empréstimos, dentre outras várias funcionalidades.
 * Alguns testes automatizados foram implementados para garantir o correto funcionamento da aplicação.
 
+Após criar um virtual enviroment, basta rodar os seguintes comandos:
+
+`pip3 install -r requirements.txt`
+`python3 manage.py makemigrations`
+`python3 manage.py migrate`
+`python3 manage.py collectstatic`
+`python3 manage.py test # Caso queria rodar os teste.`
+`python3 manage.py createsuperuser # Create a superuser`
+`python3 manage.py runserver`
+
+
 É possível consultar o repositório desde tutorial [aqui](https://github.com/mdn/django-locallibrary-tutorial).
