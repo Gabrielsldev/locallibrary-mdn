@@ -49,3 +49,5 @@ Após criar um virtual enviroment, basta rodar os seguintes comandos:
 
 
 É possível consultar o repositório desde tutorial [aqui](https://github.com/mdn/django-locallibrary-tutorial).
+
+***
